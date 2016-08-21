@@ -5,7 +5,8 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public float speed;
-	public Text text;
+	public Text countText;
+	public Text winText;
 
 	private Rigidbody rb;
 	private bool isJumping = false;
@@ -37,7 +38,10 @@ public class PlayerController : MonoBehaviour {
 		if (other.CompareTag ("Pick Up")) {
 			other.gameObject.SetActive (false);
 			count++;
-			text.text = "Score: " + count.ToString ();
+			countText.text = "Score: " + count.ToString ();
+			if (count == 4) {
+				winText.text = "You Win";
+			}
 		}
 	}
 }
