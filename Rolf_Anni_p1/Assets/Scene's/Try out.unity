@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692546, g: 0.49678695, b: 0.5750854, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692558, g: 0.49678743, b: 0.57508624, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -585,6 +585,7 @@ GameObject:
   - 33: {fileID: 1249536250}
   - 65: {fileID: 1249536249}
   - 23: {fileID: 1249536248}
+  - 114: {fileID: 1249536252}
   m_Layer: 0
   m_Name: Collectible 1
   m_TagString: Untagged
@@ -653,6 +654,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &1249536252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1249536247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdffab4622768e479e3cd96e6d84136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1642857842
 GameObject:
   m_ObjectHideFlags: 0
